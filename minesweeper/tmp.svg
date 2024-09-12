@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg"
+   version="1.1"
+   viewBox="0 0 640 640"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tmp.svg">
+  <metadata
+     id="metadata4255">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     id="namedview4253"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="16.298811"
+     inkscape:cx="15.034001"
+     inkscape:cy="622.60908"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg"
+     inkscape:object-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4257"
+       empspacing="20"
+       spacingx="2"
+       spacingy="2" />
+  </sodipodi:namedview>
+  <defs
+     id="defs">
+    <rect
+       height="40"
+       id="tile"
+       width="40"
+       x="0"
+       y="0" />
+    <circle
+       cx="8"
+       cy="8"
+       id="dot"
+       r="4" />
+    <rect
+       height="40"
+       id="numbox"
+       rx="6"
+       ry="6"
+       style="fill:none;stroke:#000000"
+       width="40"
+       x="0"
+       y="0" />
+    <g
+       id="n1">
+      <use
+         xlink:href="#dot"
+         transform="translate(12,12)"
+         id="use4142" />
+      <use
+         xlink:href="#numbox"
+         id="use4144" />
+    </g>
+    <g
+       id="n2">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4147" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4149" />
+      <use
+         xlink:href="#numbox"
+         id="use4151" />
+    </g>
+    <g
+       id="n3">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4154" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4156" />
+      <use
+         xlink:href="#dot"
+         transform="translate(12,12)"
+         id="use4158" />
+      <use
+         xlink:href="#numbox"
+         id="use4160" />
+    </g>
+    <g
+       id="n4">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4163" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,24)"
+         id="use4165" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,0)"
+         id="use4167" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4169" />
+      <use
+         xlink:href="#numbox"
+         id="use4171" />
+    </g>
+    <g
+       id="n5">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4174" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,24)"
+         id="use4176" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,0)"
+         id="use4178" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4180" />
+      <use
+         xlink:href="#dot"
+         transform="translate(12,12)"
+         id="use4182" />
+      <use
+         xlink:href="#numbox"
+         id="use4184" />
+    </g>
+    <g
+       id="n6">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4187" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,24)"
+         id="use4189" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,12)"
+         id="use4191" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,0)"
+         id="use4193" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4195" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,12)"
+         id="use4197" />
+      <use
+         xlink:href="#numbox"
+         id="use4199" />
+    </g>
+    <g
+       id="n7">
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4202" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,24)"
+         id="use4204" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,12)"
+         id="use4206" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,0)"
+         id="use4208" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4210" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,12)"
+         id="use4212" />
+      <use
+         xlink:href="#dot"
+         transform="translate(12,12)"
+         id="use4214" />
+      <use
+         xlink:href="#numbox"
+         id="use4216" />
+    </g>
+    <g
+       id="n8">
+      <use
+         xlink:href="#numbox"
+         id="use4219" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,0)"
+         id="use4221" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,24)"
+         id="use4223" />
+      <use
+         xlink:href="#dot"
+         transform="translate(0,12)"
+         id="use4225" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,0)"
+         id="use4227" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,24)"
+         id="use4229" />
+      <use
+         xlink:href="#dot"
+         transform="translate(24,12)"
+         id="use4231" />
+      <use
+         xlink:href="#dot"
+         transform="translate(12,4)"
+         id="use4233" />
+      <use
+         xlink:href="#dot"
+         transform="translate(12,20)"
+         id="use4235" />
+    </g>
+  </defs>
+  <use
+     xlink:href="#n2"
+     transform="translate(80,0)"
+     id="use4239" />
+  <g
+     id="use4237">
+    <path
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.70000005;stroke-dasharray:none;stroke-dashoffset:5;stroke-opacity:1"
+       d="m 36,20 -8,4 4,8 -8,-4 -4,8 -4,-8 -8,4 4,-8 -8,-4 8,-4 -4,-8 8,4 4,-8 4,8 8,-4 -4,8 z"
+       id="path4265"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <use
+       id="use4263"
+       xlink:href="#numbox"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <use
+     xlink:href="#n3"
+     transform="translate(160,0)"
+     id="use4241" />
+  <use
+     xlink:href="#n4"
+     transform="translate(240,0)"
+     id="use4243" />
+  <use
+     xlink:href="#n5"
+     transform="translate(0,80)"
+     id="use4245" />
+  <use
+     xlink:href="#n6"
+     transform="translate(80,80)"
+     id="use4247" />
+  <use
+     xlink:href="#n7"
+     transform="translate(160,80)"
+     id="use4249" />
+  <use
+     xlink:href="#n8"
+     transform="translate(240,80)"
+     id="use4251" />
+</svg>

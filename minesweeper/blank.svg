@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="minesweeper.css" type="text/css"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 640 640"
+  id="svg"
+  version="1.1" >
+  <defs id="defs">
+    <rect id="tile" x="0" y="0" width="40" height="40" />
+    <circle id="dot" cx="0" cy="0" r="4" />
+    <rect id="numbox" x="0" y="0" width="40" height="40" rx="6" ry="6" />
+    <path
+       d="m 16,0 -8,4 4,8 -8,-4 -4,8 -4,-8 -8,4 4,-8 -8,-4 8,-4 -4,-8 8,4 4,-8 4,8 8,-4 -4,8 z"
+       id="star" />
+    <g id="mine">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#star" transform="translate(20,20)" />
+    </g>
+    <g id="n1">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(20,20)" />
+    </g>
+    <g id="n2">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+    </g>
+    <g id="n3">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+      <use xlink:href="#dot" transform="translate(20,20)" />
+    </g>
+    <g id="n4">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(10,30)" />
+      <use xlink:href="#dot" transform="translate(30,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+    </g>
+    <g id="n5">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(10,30)" />
+      <use xlink:href="#dot" transform="translate(30,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+      <use xlink:href="#dot" transform="translate(20,20)" />
+    </g>
+    <g id="n6">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(10,30)" />
+      <use xlink:href="#dot" transform="translate(10,20)" />
+      <use xlink:href="#dot" transform="translate(30,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+      <use xlink:href="#dot" transform="translate(30,20)" />
+    </g>
+    <g id="n7">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(10,30)" />
+      <use xlink:href="#dot" transform="translate(10,20)" />
+      <use xlink:href="#dot" transform="translate(30,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+      <use xlink:href="#dot" transform="translate(30,20)" />
+      <use xlink:href="#dot" transform="translate(20,20)" />
+    </g>
+    <g id="n8">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(10,10)" />
+      <use xlink:href="#dot" transform="translate(10,30)" />
+      <use xlink:href="#dot" transform="translate(10,20)" />
+      <use xlink:href="#dot" transform="translate(30,10)" />
+      <use xlink:href="#dot" transform="translate(30,30)" />
+      <use xlink:href="#dot" transform="translate(30,20)" />
+      <use xlink:href="#dot" transform="translate(20,14)" />
+      <use xlink:href="#dot" transform="translate(20,26)" />
+    </g>
+  </defs>
+  <g id="board">
+    <g class="outside"     transform="translate(  0,0)"><use xlink:href="#tile" /></g>
+    <g class="hidden"      transform="translate( 40,0)"><use xlink:href="#tile" /></g>
+    <g class="open empty"  transform="translate( 80,0)"><use xlink:href="#tile" /></g>
+    <g class="open count1" transform="translate(120,0)"><use xlink:href="#n1" /></g>
+    <g class="open count2" transform="translate(160,0)"><use xlink:href="#n2" /></g>
+    <g class="open count3" transform="translate(200,0)"><use xlink:href="#n3" /></g>
+    <g class="open count4" transform="translate(240,0)"><use xlink:href="#n4" /></g>
+    <g class="open count5" transform="translate(280,0)"><use xlink:href="#n5" /></g>
+    <g class="open count6" transform="translate(320,0)"><use xlink:href="#n6" /></g>
+    <g class="open count7" transform="translate(360,0)"><use xlink:href="#n7" /></g>
+    <g class="open count8" transform="translate(400,0)"><use xlink:href="#n8" /></g>
+    <g class="hidden"      transform="translate(440,0)"><use xlink:href="#mine" /></g>
+  </g>
+</svg>

@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fractals</title>
+    <script type="text/javascript" src="fractal.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script src="./vertex.glsl" id="vertex" type="x-shader/x-vertex"></script>
+    <script src="./header.glsl" id="header" type="x-shader/x-library"></script>
+    <script src="./complex.glsl" id="complex" type="x-shader/x-library"></script>
+    <script src="./style.glsl" id="style" type="x-shader/x-library"></script>
+    <script src="./fragment.glsl" id="fragment" type="x-shader/x-fragment"></script>
+    <script src="./orbit_vertex.glsl" id="orbit_vertex" type="x-shader/x-vertex"></script>
+    <script src="./orbit_fragment.glsl" id="orbit_fragment" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <table>
+	<tr>
+	  <td>
+	    <table>
+		<tr valign="top">
+		  <td>
+		    <canvas id="mandelbrot" width="480" height="480"></canvas>
+		  </td>
+		  <td>
+		    <table>
+			<tr>
+			  <td>Movement</td>
+			  <td><a href="#" onclick="mandel_w.move(-0.1,0);">[Left]</a></td>
+			  <td><a href="#" onclick="mandel_w.move(+0.1,0);">[Right]</a></td>
+			  <td><a href="#" onclick="mandel_w.move(0,-0.1);">[Down]</a></td>
+			  <td><a href="#" onclick="mandel_w.move(0,+0.1);">[Up]</a></td>
+			</tr>
+			<tr>
+			  <td>Rotation</td>
+			  <td><a href="#" onclick="mandel_w.rotate(-0.1);">[CW]</a></td>
+			  <td><a href="#" onclick="mandel_w.rotate(+0.1);">[CCW]</a></td>
+			</tr>
+			<tr>
+			  <td>Zoom</td>
+			  <td><a href="#" onclick="mandel_w.scale(+1);">[In]</a></td>
+			  <td><a href="#" onclick="mandel_w.scale(-1);">[Out]</a></td>
+			</tr>
+			<tr>
+			  <td>Invert</td>
+			  <td><a href="#" onclick="mandel_w.invert();">[Invert]</a></td>
+			</tr>
+			<tr>
+			  <td>Reset View</td>
+			  <td><a href="#" onclick="mandel_w.reset();">[Reset]</a></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>Function</td>
+			  <td><a href="#" onclick="params.change_function(-1);">[ - ]</a></td>
+			  <td><div id="function"></div></td>
+			  <td><a href="#" onclick="params.change_function(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Max. Iter.</td>
+			  <td><a href="#" onclick="params.change_maxiter(-1);">[ - ]</a></td>
+			  <td><div id="maxiter"></div></td>
+			  <td><a href="#" onclick="params.change_maxiter(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Bailout</td>
+			  <td><a href="#" onclick="params.change_bailout(-1);">[ - ]</a></td>
+			  <td><div id="bailout"></div></td>
+			  <td><a href="#" onclick="params.change_bailout(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Interior palette</td>
+			  <td><a href="#" onclick="params.change_palette_in(-1);">[ - ]</a></td>
+			  <td><div id="in_palette"></div></td>
+			  <td><a href="#" onclick="params.change_palette_in(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Exterior palette</td>
+			  <td><a href="#" onclick="params.change_palette_ex(-1);">[ - ]</a></td>
+			  <td><div id="ex_palette"></div></td>
+			  <td><a href="#" onclick="params.change_palette_ex(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Interior style</td>
+			  <td><a href="#" onclick="params.change_style_in(-1);">[ - ]</a></td>
+			  <td><div id="in_style"></div></td>
+			  <td><a href="#" onclick="params.change_style_in(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>Exterior style</td>
+			  <td><a href="#" onclick="params.change_style_ex(-1);">[ - ]</a></td>
+			  <td><div id="ex_style"></div></td>
+			  <td><a href="#" onclick="params.change_style_ex(+1);">[ + ]</a></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+                        <tr>
+                          <td>Bounds</td>
+			  <td colspan="3">
+                            <table>
+                              <tbody>
+                                <tr><td><pre id="bounds_m0x"></pre></td><td><pre id="bounds_m0y"></pre></td></tr>
+                                <tr><td><pre id="bounds_m1x"></pre></td><td><pre id="bounds_m1y"></pre></td></tr>
+                                <tr><td><pre id="bounds_m2x"></pre></td><td><pre id="bounds_m2y"></pre></td></tr>
+                                <tr><td><pre id="bounds_m3x"></pre></td><td><pre id="bounds_m3y"></pre></td></tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>&lt;= Click and drag to change Julia set</td>
+			</tr>
+			<tr>
+			  <td>&lt;= Click and drag to show orbit</td>
+			</tr>
+		    </table>
+		  </td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <table>
+		<tr valign="top">
+		  <td>
+		    <canvas id="julia" width="480" height="480"></canvas>
+		  </td>
+		  <td>
+		    <table>
+			<tr>
+			  <td>Movement</td>
+			  <td><a href="#" onclick="julia_w.move(-0.1,0);">[Left]</a></td>
+			  <td><a href="#" onclick="julia_w.move(+0.1,0);">[Right]</a></td>
+			  <td><a href="#" onclick="julia_w.move(0,-0.1);">[Down]</a></td>
+			  <td><a href="#" onclick="julia_w.move(0,+0.1);">[Up]</a></td>
+			</tr>
+			<tr>
+			  <td>Rotation</td>
+			  <td><a href="#" onclick="julia_w.rotate(-0.1);">[CW]</a></td>
+			  <td><a href="#" onclick="julia_w.rotate(+0.1);">[CCW]</a></td>
+			</tr>
+			<tr>
+			  <td>Zoom</td>
+			  <td><a href="#" onclick="julia_w.scale(+1);">[In]</a></td>
+			  <td><a href="#" onclick="julia_w.scale(-1);">[Out]</a></td>
+			</tr>
+			<tr>
+			  <td>Invert</td>
+			  <td><a href="#" onclick="julia_w.invert();">[Invert]</a></td>
+			</tr>
+			<tr>
+			  <td>Reset View</td>
+			  <td><a href="#" onclick="julia_w.reset();">[Reset]</a></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+                        <tr>
+                          <td>c =</td>
+			  <td colspan="3"><pre id="julia_c"></div></td>
+                        </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+                        <tr>
+                          <td>Bounds</td>
+			  <td colspan="3">
+                            <table>
+                              <tbody>
+                                <tr><td><pre id="bounds_j0x"></pre></td><td><pre id="bounds_j0y"></pre></td></tr>
+                                <tr><td><pre id="bounds_j1x"></pre></td><td><pre id="bounds_j1y"></pre></td></tr>
+                                <tr><td><pre id="bounds_j2x"></pre></td><td><pre id="bounds_j2y"></pre></td></tr>
+                                <tr><td><pre id="bounds_j3x"></pre></td><td><pre id="bounds_j3y"></pre></td></tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+			<tr>
+			  <td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td>&lt;= Click and drag to show orbit</td>
+			</tr>
+		    </table>
+		  </td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <table>
+		<tr valign="top">
+		  <td>
+		    <canvas id="orbit" width="480" height="480"></canvas>
+		  </td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <h1 id="error" style="display:none;">
+	      An error occurred
+	    </h1>
+	  </td>
+	</tr>
+    </table>
+  </body>
+</html>

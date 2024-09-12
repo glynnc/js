@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="pong"
+   version="1.1"
+   viewBox="0 0 300 210"
+   sodipodi:docname="pong.svg"
+   onload="startup(evt)"
+   inkscape:version="0.91 r13725">
+  <script
+     id="script7280"
+     xlink:href="pong.js" />
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     fit-margin-bottom="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-top="0"
+     id="base"
+     pagecolor="#ffffff"
+     showborder="true"
+     showgrid="true"
+     inkscape:current-layer="layer1"
+     inkscape:cx="81.464987"
+     inkscape:cy="180.61917"
+     inkscape:document-units="mm"
+     inkscape:object-nodes="true"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="1129"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1920"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:zoom="15.839192"
+     units="px">
+    <inkscape:grid
+       id="grid3336"
+       originx="0"
+       originy="0"
+       spacingx="5"
+       spacingy="5"
+       type="xygrid"
+       units="px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       height="175"
+       id="pitch"
+       style="opacity:1;fill:#000000;fill-opacity:1"
+       width="300"
+       x="0"
+       y="35"
+       inkscape:label="#rect3349" />
+    <rect
+       height="30"
+       id="bat_l"
+       style="opacity:1;fill:#ffffff;fill-opacity:1"
+       width="5"
+       x="15"
+       y="95"
+       inkscape:label="#rect3351" />
+    <rect
+       height="30"
+       id="bat_r"
+       style="opacity:1;fill:#ffffff;fill-opacity:1"
+       width="5"
+       x="280"
+       y="95"
+       inkscape:label="#rect3353" />
+    <rect
+       height="10"
+       id="ball"
+       style="opacity:1;fill:#ffffff;fill-opacity:1"
+       width="10"
+       x="95"
+       y="105"
+       inkscape:label="#rect3355" />
+    <path
+       d="m 150,35 0,175"
+       id="center_line"
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-dasharray:5, 5;stroke-dashoffset:5;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3357" />
+    <rect
+       height="35"
+       id="score"
+       style="opacity:1;fill:#000000;fill-opacity:1"
+       width="300"
+       x="0"
+       y="0"
+       inkscape:label="#rect4159" />
+    <g
+       id="score_l"
+       inkscape:label="#g4610">
+      <path
+         d="m 75,5 0,25 20,0 0,-25 -15,0 0,5 10,0 0,15 -10,0 0,-20 -5,0"
+         id="digit_l_0"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4161" />
+      <rect
+         height="25"
+         id="digit_l_1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         width="5"
+         x="90"
+         y="5"
+         inkscape:label="#rect4165" />
+      <path
+         d="m 75,5 20,0 0,15 -15,0 0,5 15,0 0,5 -20,0 0,-15 15,0 0,-5 -15,0 z"
+         id="digit_l_2"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4169" />
+      <path
+         d="m 75,5 20,0 0,25 -20,0 0,-5 15,0 0,-5 -15,0 0,-5 15,0 0,-5 -15,0 z"
+         id="digit_l_3"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4173" />
+      <path
+         d="m 75,5 0,15 15,0 0,10 5,0 0,-25 -5,0 0,10 -10,0 0,-10 z"
+         id="digit_l_4"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4177" />
+      <path
+         d="m 95,5 -20,0 0,15 15,0 0,5 -15,0 0,5 20,0 0,-15 -15,0 0,-5 15,0 z"
+         id="digit_l_5"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4169" />
+      <path
+         d="m 95,5 -20,0 0,25 20,0 0,-15 -15,0 0,5 10,0 0,5 -10,0 0,-15 15,0 z"
+         id="digit_l_6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4185" />
+      <path
+         d="m 95,5 0,25 -5,0 0,-20 -15,0 0,-5 z"
+         id="digit_l_7"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4189" />
+      <path
+         d="m 75,5 0,25 20,0 0,-25 -15,0 0,5 10,0 0,5 -10,0 0,5 10,0 0,5 -10,0 0,-20 z"
+         id="digit_l_8"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4193" />
+      <path
+         d="m 75,30 20,0 0,-25 -20,0 0,15 15,0 0,-5 -10,0 0,-5 10,0 0,15 -15,0 z"
+         id="digit_l_9"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4185" />
+      <rect
+         height="25"
+         id="digit_l_10"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         width="5"
+         x="65"
+         y="5"
+         inkscape:label="#rect4165" />
+    </g>
+    <g
+       id="score_r"
+       inkscape:label="#g4623">
+      <path
+         d="m 205,5 0,25 20,0 0,-25 -15,0 0,5 10,0 0,15 -10,0 0,-20 -5,0"
+         id="digit_r_0"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4163" />
+      <rect
+         height="25"
+         id="digit_r_1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         width="5"
+         x="220"
+         y="5"
+         inkscape:label="#rect4165" />
+      <path
+         d="m 205,5 20,0 0,15 -15,0 0,5 15,0 0,5 -20,0 0,-15 15,0 0,-5 -15,0 z"
+         id="digit_r_2"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4169" />
+      <path
+         d="m 205,5 20,0 0,25 -20,0 0,-5 15,0 0,-5 -15,0 0,-5 15,0 0,-5 -15,0 z"
+         id="digit_r_3"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4173" />
+      <path
+         d="m 205,5 0,15 15,0 0,10 5,0 0,-25 -5,0 0,10 -10,0 0,-10 z"
+         id="digit_r_4"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4177" />
+      <path
+         d="m 225,5 -20,0 0,15 15,0 0,5 -15,0 0,5 20,0 0,-15 -15,0 0,-5 15,0 z"
+         id="digit_r_5"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4169" />
+      <path
+         d="m 225,5 -20,0 0,25 20,0 0,-15 -15,0 0,5 10,0 0,5 -10,0 0,-15 15,0 z"
+         id="digit_r_6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4185" />
+      <path
+         d="m 225,5 0,25 -5,0 0,-20 -15,0 0,-5 z"
+         id="digit_r_7"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4189" />
+      <path
+         d="m 205,5 0,25 20,0 0,-25 -15,0 0,5 10,0 0,5 -10,0 0,5 10,0 0,5 -10,0 0,-20 z"
+         id="digit_r_8"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4193" />
+      <path
+         d="m 205,30 20,0 0,-25 -20,0 0,15 15,0 0,-5 -10,0 0,-5 10,0 0,15 -15,0 z"
+         id="digit_r_9"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4185" />
+      <rect
+         height="25"
+         id="digit_r_10"
+         style="opacity:1;fill:#ffffff;fill-opacity:1"
+         width="5"
+         x="195"
+         y="5"
+         inkscape:label="#rect4165" />
+    </g>
+  </g>
+</svg>

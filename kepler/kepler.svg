@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="420"
+   height="600"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.1 "
+   version="1.0"
+   sodipodi:docname="kepler.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   onload="startup(evt)"
+   sodipodi:modified="true">
+  <script
+     xlink:href="../common/pathseg.js"
+     id="script_pathseg" />
+  <script
+     xlink:href="kepler.js"
+     id="script7280" />
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="300.32313"
+     inkscape:cy="230.0202"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:grid-bbox="false"
+     inkscape:grid-points="true"
+     showgrid="true"
+     inkscape:object-paths="false"
+     inkscape:guide-bbox="false"
+     width="400px"
+     height="600px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="5px"
+       spacingy="5px"
+       color="#0000ff"
+       empcolor="#0000ff"
+       opacity="0.2"
+       empopacity="0.4"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(200,300)"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       id="status"
+       y="175"
+       x="-150"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+       xml:space="preserve"
+       sodipodi:linespacing="125%">Ready</text>
+
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1"
+       id="orbit"
+       d="M 150,0 A 150,100 0 1 1 -150,0 150,100 0 1 1 150,0 z"
+       />
+    <path
+       style="fill:none;stroke:#C0C0C0;stroke-width:1"
+       id="major_circle"
+       d="M 150,0 A 150,150 0 1 1 -150,0 150,150 0 1 1 150,0 z"
+       />
+    <path
+       style="fill:none;stroke:#C0C0C0;stroke-width:1"
+       id="minor_circle"
+       d="M 100,0 A 100,100 0 1 1 -100,0 100,100 0 1 1 100,0 z"
+       />
+
+    <path
+       d="m 5,0 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       id="centre"
+       style="fill:#ff0000;stroke:#000000;stroke-width:1"
+       />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:1"
+       id="focus"
+       transform="translate(111.8033988749895,0)"
+       d="m 5,0 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:1"
+       id="planet"
+       transform="translate(90,-80)"
+       d="m 5,0 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       />
+
+    <path
+       style="stroke:#000000;stroke-width:1"
+       d="M -200,0 200,0"
+       id="major_axis" />
+    <path
+       style="stroke:#000000;stroke-width:1"
+       d="M 0,-200 0,200"
+       id="minor_axis" />
+    <path
+       style="stroke:#C0C080;stroke-width:1"
+       d="M 0,0 90,-120"
+       id="ray_mean_anomaly" />
+    <path
+       style="stroke:#80C0C0;stroke-width:1"
+       d="M 0,0 90,-120"
+       id="ray_ecc_anomaly" />
+    <path
+       style="stroke:#80C080;stroke-width:1"
+       d="M 0,0 90,-80"
+       id="ray_abs_anomaly" />
+    <path
+       style="stroke:#C080C0;stroke-width:1"
+       d="M 90,0 90,-120"
+       id="ray_vertical" />
+    <path
+       style="stroke:#C080C0;stroke-width:1"
+       d="M 0,-80 90,-80"
+       id="ray_horizontal" />
+    <path
+       style="stroke:#000000;stroke-width:1"
+       d="M 111.8033988749895,0 90,-80"
+       id="ray_direction" />
+  </g>
+</svg>

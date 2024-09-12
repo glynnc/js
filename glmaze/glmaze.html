@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ball Maze</title>
+
+<script src="../common/application.js" > </script>
+<script src="../common/matrix.js" > </script>
+<script src="./error.js" > </script>
+<script src="./vector.js" > </script>
+<script src="./sphere.js" > </script>
+<script src="./ball.js" > </script>
+<script src="./maze.js" > </script>
+<script src="./glmaze.js"> </script>
+<script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex" > </script>
+<script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment" > </script>
+<style type="text/css">
+    body {
+	text-align: center;
+    }
+    canvas {
+        border: 2px solid black;
+    }
+    #container {
+	margin: auto auto;
+	width: 100%;
+	height: 100%;
+    }
+</style>
+</head>
+<body onload="start()">
+<div id="container">
+<canvas id="canvas" width="640" height="640">
+    If you're seeing this your web browser doesn't support the &lt;canvas>&gt; element.
+</canvas>
+</div>
+<div id="console"></div>
+<div id="warning" style="display: none;">
+<h2><b>This page requires WebGL and JavaScript</b></h2>
+</div>
+<img id="image" src="../data/envmap_small.jpg" style="display: none;">
+</body>
+</html>

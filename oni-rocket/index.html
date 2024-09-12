@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <title>ONI Rocket Calculator</title>
+    <script type="text/javascript" src="rocket.js"></script>
+    <style type="text/css">
+      td.fuel {
+          text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" cellpadding="4">
+      <tbody>
+	<tr>
+          <td>Fuel</td>
+          <td>
+            <select id="fuel_type">
+              <option value="steam">Steam</option>
+              <option value="petroleum">Petroleum</option>
+              <option value="hydrogen">Hydrogen</option>
+            </select>
+          </td>
+        </tr>
+	<tr>
+          <td>Oxidiser</td>
+          <td>
+            <select id="oxidiser">
+              <option value="oxylite">Oxylite</option>
+              <option value="oxygen">Liquid Oxygen</option>
+            </select>
+          </td>
+        </tr>
+	<tr>
+          <td>Fuel Tanks</td>
+          <td><input id="fuel_tanks"     type="number" value="0" min="0" max="10"></td>
+        </tr>
+	<tr>
+          <td>Oxidiser Tanks</td>
+          <td><input id="oxidiser_tanks" type="number" value="0" min="0" max="10"></td>
+        </tr>
+	<tr>
+          <td>Research Modules</td>
+          <td><input id="research"       type="number" value="0" min="0" max="10"></td>
+        </tr>
+	<tr>
+          <td>Cargo Modules</td>
+          <td><input id="cargo"          type="number" value="0" min="0" max="10"></td>
+        </tr>
+	<tr>
+          <td>Sightseeing Modules</td>
+          <td><input id="sightseeing"    type="number" value="0" min="0" max="10"></td>
+        </tr>
+        <tr>
+          <td><input id="calculate" type="button" value="Calculate" onclick="calculate();">
+      </tbody>
+    </table>
+    <hr>
+    <table border="1" cellpadding="4">
+      <tbody>
+        <tr><td><b>Dry Mass:</b></td><td id="dry_mass"><span></span></td></tr>
+        <tr><td><b>Max. Fuel:</b></td><td id="max_fuel"><span></span></td></tr>
+        <tr><td><b>Max. Range:</b></td><td id="max_range"><span></span></td></tr>
+      </tbody>
+    </table>
+    <hr>
+    <table border="1" cellpadding="4">
+      <thead>
+        <tr>
+          <th>Distance</th>
+          <th>Fuel</th>
+        </tr>
+      </thead>
+      <tbody id="results">
+      </tbody>
+    </table>
+  </body>
+</html>

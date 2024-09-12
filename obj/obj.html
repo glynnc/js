@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rendering Demo</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="obj.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="../common/monkey.obj.js"></script>
+    <script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex"></script>
+    <script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <table>
+	<tr valign="top">
+	  <td>
+	    <canvas id="canvas" width="640" height="640"></canvas>
+	  </td>
+	  <td>
+	    <table>
+		<tr>
+		  <td>Environment Map</td>
+		  <td><a href="#" onclick="app.change_env_map(-1);">[Prev]</a></td>
+		  <td><a href="#" onclick="app.change_env_map(1);">[Next]</a></td>
+		  <td><a href="#" onclick="app.toggle_envmap();">[Toggle]</a></td>
+		</tr>
+		<tr>
+		  <td>Normal Map</td>
+		  <td><a href="#" onclick="app.change_normal_map(-1);">[Prev]</a></td>
+		  <td><a href="#" onclick="app.change_normal_map(1);">[Next]</a></td>
+		</tr>
+		<tr>
+		  <td>Texture</td>
+		  <td><a href="#" onclick="app.change_texture(-1);">[Prev]</a></td>
+		  <td><a href="#" onclick="app.change_texture(1);">[Next]</a></td>
+		</tr>
+		<tr>
+		  <td>Color</td>
+		  <td><a href="#" onclick="app.change_color(-1);">[Prev]</a></td>
+		  <td><a href="#" onclick="app.change_color(1);">[Next]</a></td>
+		</tr>
+		<tr>
+		  <td>Shape</td>
+		  <td><a href="#" onclick="app.change_shape(-1);">[Prev]</a></td>
+		  <td><a href="#" onclick="app.change_shape(1);">[Next]</a></td>
+		</tr>
+		<tr>
+		  <td>Gamma</td>
+		  <td><a href="#" onclick="app.change_gamma(-0.1);">[Less]</a></td>
+		  <td><a href="#" onclick="app.change_gamma( 0.1);">[More]</a></td>
+		</tr>
+	    </table>
+	    </td>
+	</tr>
+	<tr>
+	  <td>
+	    <table>
+		<tr>
+		  <td>Keys:</td>
+		</tr>
+		<tr>
+		  <td>Object Rotation</td>
+		  <td></td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Object Position</td>
+		  <td>Shift +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Light Position</td>
+		  <td>Ctrl +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Toggle Environment Map</td><td></td><td>M</td>
+		</tr>
+		<tr>
+		  <td>Next Environment Map</td><td></td><td>E</td>
+		</tr>
+		<tr>
+		  <td>Next Normal Map</td><td></td><td>N</td>
+		</tr>
+		<tr>
+		  <td>Next Texture</td><td></td><td>T</td>
+		</tr>
+		<tr>
+		  <td>Next Color</td><td></td><td>C</td>
+		</tr>
+		<tr>
+		  <td>Next Shape</td><td></td><td>S</td>
+		</tr>
+		<tr>
+		  <td>Change Gamma</td><td></td><td>[</td><td>]</td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+    </table>
+    <img id="texture1" src="../data/blank.png" style="display:none;">
+    <img id="texture2" src="../data/check.png" style="display:none;">
+    <img id="texture3" src="../data/rock.jpg" style="display:none;">
+    <img id="envmap1" src="../data/envmap_small.jpg" style="display:none;">
+    <img id="nmap_noise" src="../data/n_noise.png" style="display:none;">
+    <img id="nmap_floor" src="../data/n_flooring.png" style="display:none;">
+    <img id="nmap_bumps" src="../data/n_bumps.png" style="display:none;">
+    <img id="nmap_scale" src="../data/n_scales.png" style="display:none;">
+    <img id="nmap_tiles" src="../data/n_tiles.png" style="display:none;">
+  </body>
+</html>

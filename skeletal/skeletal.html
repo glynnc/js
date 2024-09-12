@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Skeletal Animation</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="skeletal.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="../common/vector.js"></script>
+    <script type="text/javascript" src="../common/quaternion.js"></script>
+    <script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex"></script>
+    <script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init('barney')">
+    <table>
+	<tr valign="top">
+	  <td>
+	    <canvas id="canvas" width="640" height="640"></canvas>
+	  </td>
+	  <td>
+	    <table>
+	      <tbody>
+		<tr>
+		  <td>
+		    <table>
+		      <tbody>
+			<tr>
+			  <td>Animation</td>
+			</tr>
+			<tr>
+			  <td><a href="#" onclick="app.change_animation(-1);">[Prev]</a></td>
+			  <td><a href="#" onclick="app.change_animation( 1);">[Next]</a></td>
+			</tr>
+		      </tbody>
+		    </table>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <div id="animations" style="width: 25vh; height: 380px; overflow: scroll;">
+		    </div>
+		  </td>
+		</tr>
+		<tr>
+                  <td>Parts</td>
+		</tr>
+		<tr>
+		  <td>
+		    <div id="parts" style="width: 25vh; height: 100px; overflow: scroll; white-space: pre;"></div>
+		  </td>
+		</tr>
+		<tr>
+                  <td>Blends</td>
+		</tr>
+		<tr>
+		  <td>
+                      0: <input id="blend0" type="range">
+                      <br>
+                      1: <input id="blend1" type="range">
+		  </td>
+		</tr>
+	      </tbody>
+	    </table>
+	    </td>
+	</tr>
+	<tr>
+	  <td>
+	    <table>
+	      <tbody>
+		<tr>
+		  <td>Keys:</td>
+		</tr>
+		<tr>
+		  <td>Object Rotation</td>
+		  <td></td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Object Position</td>
+		  <td>Shift +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Light Position</td>
+		  <td>Ctrl +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+    </table>
+    <img id="texture" src="barney.png" style="display:none;">
+  </body>
+</html>

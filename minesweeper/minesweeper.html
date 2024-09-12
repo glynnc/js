@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MineSweeper</title>
+    <script type="text/javascript" src="../common/collections.js"></script>
+    <script type="text/javascript" src="minesweeper.js"></script>
+    <script type="text/javascript" src="saved.js"></script>
+    <link rel="stylesheet" type="text/css" href="minesweeper.css">
+  </head>
+  <body onload="init(16,16,40);">
+    <embed id="canvas" src="blank.svg" type="image/svg+xml" height="80%">
+    <hr>
+    <div id="status">&nbsp;<span id="error" class="hidden">This board is not possible</span></div>
+    <hr>
+    Rows <input id="rows"  type="text"  size="3">
+    Cols <input id="cols"  type="text"  size="3">
+    Mines <input id="mines" type="text"  size="3">
+    <label><input id="play"  type="radio" name="mode" value="play"  onclick="launcher.change_mode();">Play</label>
+    <label><input id="solve" type="radio" name="mode" value="solve" onclick="launcher.change_mode();">Solve</label>
+    <input id="start" type="button" value="Start" align="center" onclick="launcher.start();">
+    <input id="load"  type="button" value="Load"  align="center" onclick="launcher.load();">
+    <input id="reset" type="button" value="Reset" align="center" onclick="game.do_reset();">
+    <input id="infer" type="button" value="Hint"  align="center" onclick="game.do_infer();">
+    <input id="clear" type="button" value="Clear" align="center" onclick="game.clear_hints();">
+    <hr>
+    <div id="paint" style="display: none;">
+    <label><input id="paint_out" type="radio" name="paint" value="out" >Outside</label>
+    <label><input id="paint_hid" type="radio" name="paint" value="hid" >Hidden</label>
+    <label><input id="paint_0" type="radio" name="paint" value="0" >0</label>
+    <label><input id="paint_1" type="radio" name="paint" value="1" >1</label>
+    <label><input id="paint_2" type="radio" name="paint" value="2" >2</label>
+    <label><input id="paint_3" type="radio" name="paint" value="3" >3</label>
+    <label><input id="paint_4" type="radio" name="paint" value="4" >4</label>
+    <label><input id="paint_5" type="radio" name="paint" value="5" >5</label>
+    <label><input id="paint_6" type="radio" name="paint" value="6" >6</label>
+    <label><input id="paint_7" type="radio" name="paint" value="7" >7</label>
+    <label><input id="paint_8" type="radio" name="paint" value="8" >8</label>
+    <label><input id="paint_mine" type="radio" name="paint" value="mine" >Mine</label>
+    </div>
+    <hr>
+  </body>
+</html>

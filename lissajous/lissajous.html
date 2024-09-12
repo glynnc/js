@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lissajous Figure</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="lissajous.js"></script>
+    <script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex"></script>
+    <script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <table>
+	<tr valign="top">
+	  <td colspan="4">
+	    <canvas id="canvas" width="640" height="640"></canvas>
+	  </td>
+	</tr>
+	<tr>
+	  <td>X&nbsp;<input type="text" id="frequency_x" size="5"></td>
+	  <td>Y&nbsp;<input type="text" id="frequency_y" size="5"></td>
+	  <td>Z&nbsp;<input type="text" id="frequency_z" size="5"></td>
+	  <td><input type="button" id="frequency_update" value="Update" onclick="app.update_frequency();"></td>
+	</tr>
+    </table>
+  </body>
+</html>

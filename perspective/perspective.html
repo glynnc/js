@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Perspective Projection</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="perspective.js"></script>
+    <script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex"></script>
+    <script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <h1>Perspective Projection</h1>
+    <hr>
+    <table rules="all">
+      <tbody>
+        <tr>
+          <td colspan="3">
+            <canvas id="canvas" width="1800" height="600"></canvas>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" width="600" bgcolor="red"  >Top</td>
+          <td align="center" width="600" bgcolor="green">Front</td>
+          <td align="center" width="600" bgcolor="blue" >Side</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

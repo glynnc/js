@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Noise</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="noise.js"></script>
+    <script src="./vertex.glsl"   id="vshader"         type="x-shader/x-vertex"  ></script>
+    <script src="./fragment.glsl" id="fshader"         type="x-shader/x-fragment"></script>
+    <script src="./header.glsl"   id="fshader_header"  type="x-shader/x-fragment"></script>
+    <script src="./fractal.glsl"  id="fshader_fractal" type="x-shader/x-fragment"></script>
+    <script src="./perlin.glsl"   id="fshader_perlin"  type="x-shader/x-fragment"></script>
+    <script src="./grain.glsl"    id="fshader_grain"   type="x-shader/x-fragment"></script>
+    <script src="./rings.glsl"    id="fshader_rings"   type="x-shader/x-fragment"></script>
+    <script src="./distort.glsl"  id="fshader_distort" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <h1>Noise</h1>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <hr>
+    <a id="fractal" href="#" onclick="app.set_program('fractal')">Fractal</a>
+    <a id="perlin"  href="#" onclick="app.set_program('perlin')">Perlin</a>
+    <a id="wood_g"  href="#" onclick="app.set_program('wood_g')">Grain</a>
+    <a id="wood_r"  href="#" onclick="app.set_program('wood_r')">Rings</a>
+    <a id="distort" href="#" onclick="app.set_program('distort')">Distortion</a>
+    <a id="random"  href="#" onclick="app.randomize()">[Randomize]</a>
+    <hr>
+    <span id="level_div">
+      Levels:
+      Min <input id="level_min" type="text" size="3" onchange="app.change('level_min', this.value, true);">
+      Max <input id="level_max" type="text" size="3" onchange="app.change('level_max', this.value, true);">
+      Exp <input id="exponent"  type="text" size="3" onchange="app.change('exponent', this.value);">
+      <label>Shade<input id="shade" type="checkbox" size="3" onclick="app.change('shade', this.checked?1:0, true);"></label>
+    <span>
+    <hr>
+    <span id="fractal_div"></span>
+    <span id="perlin_div">
+      Level <input id="perlin_level" type="text" size="5" onchange="app.change('perlin_level', this.value, true);">
+    </span>
+    <span id="wood_div">
+      X <input id="wood_offset_x" type="text" size="5" onchange="app.change('wood_offset_x', this.value);">
+      Y <input id="wood_offset_y" type="text" size="5" onchange="app.change('wood_offset_y', this.value);">
+      SX <input id="wood_scale_x" type="text" size="5" onchange="app.change('wood_scale_x', this.value);">
+      SY <input id="wood_scale_y" type="text" size="5" onchange="app.change('wood_scale_y', this.value);">
+      Grain <input id="wood_grainy" type="text" size="5" onchange="app.change('wood_grainy', this.value);">
+      Stretch <input id="wood_stretch" type="text" size="5" onchange="app.change('wood_stretch', this.value);">
+      Freq <input id="wood_frequency" type="text" size="5" onchange="app.change('wood_frequency', this.value);">
+    </span>
+    <span id="distort_div">
+      SX <input id="distort_scale_x" type="text" size="5" onchange="app.change('distort_scale_x', this.value);">
+      SY <input id="distort_scale_y" type="text" size="5" onchange="app.change('distort_scale_y', this.value);">
+      <input id="distort_image" type="text" size="40">
+      <input id="image_update" type="button" value="Set" onclick="app.change_image();">
+      Repeat <input id="distort_repeat" type="text" size="5" onchange="app.change('distort_repeat', this.value, true);">
+    </span>
+    <hr>
+    <img id="image" src="../data/hex2.png" style="display:none;">
+  </body>
+</html>

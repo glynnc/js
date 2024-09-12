@@ -1,0 +1,27 @@
+text {
+  fill:black; stroke:none;
+  cursor:default;
+  font-size:120px; font-weight:bold; font-family:sans-serif;
+  text-align:center; text-anchor:middle;
+}
+text#bust { fill:#ff0000; }
+.symbol { stroke:black;stroke-width:10 }
+#circle { fill:#ff0000 }
+#cross { fill:#00ff00 }
+#background { fill:white;stroke:none }
+#border { stroke:black;stroke-width:8 }
+.outline { stroke:black;stroke-width:20 }
+#triangle { fill:#ffff00 }
+#diamond { fill:#ff00ff }
+.icon { fill:black; stroke:none }
+#exclamation {  }
+#skull {  }
+.container { fill:white }
+#bust.hidden { display:none }
+#grid {  }
+#controls {  }
+.radio { cursor:default }
+.radio.selected { fill:#ffff00 }
+#clear_rect { fill:#c0ffff;stroke:black;stroke-width:4 }
+#clear_rect.active { fill:#ffc0ff }
+#status_rect { fill:white;stroke:none }

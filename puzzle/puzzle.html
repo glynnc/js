@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sliding Block Puzzle</title>
+    <script type="text/javascript">puzzle_size={x: 4, y: 4};</script>
+    <script type="text/javascript" src="puzzle.js"></script>
+    <script type="text/javascript" src="solver.js"></script>
+  </head>
+  <body onload="init()">
+    <canvas id="canvas" width="640" height="640"></canvas>
+    <br>
+    <div id="status">...</div>
+    <br>
+    <form>
+      Image URL:
+      <input id="url" type="text" size="30">
+      <input id="go" type="button" value="Go">
+    </form>
+    <img id="picture" src="../data/lena.jpg" style="display:none;">
+  </body>
+</html>

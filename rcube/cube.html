@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Puzzle Cube</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="../common/vector.js"></script>
+    <script type="text/javascript" src="cube.obj.js"></script>
+    <script type="text/javascript" src="cube.js"></script>
+    <script src="./vertex.glsl" id="vshader" type="x-shader/x-vertex"></script>
+    <script src="./fragment.glsl" id="fshader" type="x-shader/x-fragment"></script>
+    <script src="./vertex_arrows.glsl" id="vshader_arrows" type="x-shader/x-vertex"></script>
+    <script src="./fragment_arrows.glsl" id="fshader_arrows" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <table>
+      <tbody>
+	<tr valign="top">
+	  <td>
+	    <canvas id="canvas" width="640" height="640"></canvas>
+	  </td>
+	  <td>
+	    <table>
+	      <tbody>
+		<tr>
+		  <td><a href="#" onclick="app.start_undo();">Undo</a>&nbsp;(Del)</td>
+		</tr>
+		<tr>
+		  <td><a href="#" onclick="app.start_shuffle();">Shuffle</a>&nbsp;(S)</td>
+		</tr>
+		<tr>
+		  <td><a href="#" onclick="app.start_flip();">Flip</a>&nbsp;(Space)</td>
+		</tr>
+		<tr>
+		  <td>Rotate</td>
+		  <td><a href="#" onclick="app.start_yflip(-1);">Left</a>&nbsp;(<img src="../data/arrow_l.png">)</td>
+		  <td><a href="#" onclick="app.start_yflip(1);">Right</a>&nbsp;(<img src="../data/arrow_r.png">)</td>
+		</tr>
+		<tr>
+		  <td>Rotate</td>
+		  <td><a href="#" onclick="app.start_xflip(-1);">Up</a>&nbsp;(<img src="../data/arrow_u.png">)</td>
+		  <td><a href="#" onclick="app.start_xflip(1);">Down</a>&nbsp;(<img src="../data/arrow_d.png">)</td>
+		</tr>
+		<tr>
+		  <td>Projection</td>
+		  <td><a href="#" onclick="app.set_ortho(false);">Perspective</a>&nbsp;(P)</td>
+		  <td><a href="#" onclick="app.set_ortho(true);">Orthographic</a>&nbsp;(O)</td>
+		</tr>
+	      </tbody>
+	    </table>
+	  </td>
+	</tr>
+	<tr>
+	  <td><div id="status"></div></td>
+	</tr>
+      </tbody>
+    </table>
+    <img id="texture" src="./cube.png" style="display:none;">
+    <img id="arrows" src="./arrows.png" style="display:none;">
+  </body>
+</html>

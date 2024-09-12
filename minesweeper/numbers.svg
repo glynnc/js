@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg" version="1.1"
+    viewBox="0 0 640 640" >
+  <defs id="defs">
+    <rect height="40" id="tile" width="40" x="0" y="0" />
+    <circle cx="8" cy="8" id="dot" r="4" />
+    <rect height="40" id="numbox" rx="6" ry="6" style="fill:none;stroke:#000000" width="40" x="0" y="0" />
+    <g id="n1">
+      <use xlink:href="#dot" transform="translate(12,12)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n2">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n3">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#dot" transform="translate(12,12)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n4">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(0,24)" />
+      <use xlink:href="#dot" transform="translate(24,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n5">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(0,24)" />
+      <use xlink:href="#dot" transform="translate(24,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#dot" transform="translate(12,12)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n6">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(0,24)" />
+      <use xlink:href="#dot" transform="translate(0,12)" />
+      <use xlink:href="#dot" transform="translate(24,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#dot" transform="translate(24,12)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n7">
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(0,24)" />
+      <use xlink:href="#dot" transform="translate(0,12)" />
+      <use xlink:href="#dot" transform="translate(24,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#dot" transform="translate(24,12)" />
+      <use xlink:href="#dot" transform="translate(12,12)" />
+      <use xlink:href="#numbox" />
+    </g>
+    <g id="n8">
+      <use xlink:href="#numbox" />
+      <use xlink:href="#dot" transform="translate(0,0)" />
+      <use xlink:href="#dot" transform="translate(0,24)" />
+      <use xlink:href="#dot" transform="translate(0,12)" />
+      <use xlink:href="#dot" transform="translate(24,0)" />
+      <use xlink:href="#dot" transform="translate(24,24)" />
+      <use xlink:href="#dot" transform="translate(24,12)" />
+      <use xlink:href="#dot" transform="translate(12,4)" />
+      <use xlink:href="#dot" transform="translate(12,20)" />
+    </g>
+  </defs>
+  <use xlink:href="#n1" transform="translate(0,0)"/>
+  <use xlink:href="#n2" transform="translate(80,0)"/>
+  <use xlink:href="#n3" transform="translate(160,0)"/>
+  <use xlink:href="#n4" transform="translate(240,0)"/>
+  <use xlink:href="#n5" transform="translate(0,80)"/>
+  <use xlink:href="#n6" transform="translate(80,80)"/>
+  <use xlink:href="#n7" transform="translate(160,80)"/>
+  <use xlink:href="#n8" transform="translate(240,80)"/>
+</svg>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reflection and Refraction Demo</title>
+    <script type="text/javascript" src="../common/application.js"></script>
+    <script type="text/javascript" src="raytrace.js"></script>
+    <script type="text/javascript" src="../common/matrix.js"></script>
+    <script type="text/javascript" src="../common/vector.js"></script>
+    <script type="text/javascript" src="../common/monkey.obj.js"></script>
+    <script src="./vertex_obj.glsl" id="vshader_obj" type="x-shader/x-vertex"></script>
+    <script src="./vertex_sphere.glsl" id="vshader_sphere" type="x-shader/x-vertex"></script>
+    <script src="./fragment_bg.glsl" id="fshader_bg" type="x-shader/x-fragment"></script>
+    <script src="./fragment_obj.glsl" id="fshader_obj" type="x-shader/x-fragment"></script>
+    <script src="./fragment_sphere.glsl" id="fshader_sphere" type="x-shader/x-fragment"></script>
+    <script src="./fragment_empty.glsl" id="fshader_empty" type="x-shader/x-fragment"></script>
+  </head>
+  <body onload="init()">
+    <table>
+	<tr valign="top">
+	  <td>
+	    <canvas id="canvas" width="640" height="640"></canvas>
+	  </td>
+	  <td>
+	    <table>
+	      <tbody>
+		<tr>
+		  <td>Shape</td>
+		  <td></td><td></td><td></td>
+		  <td><a href="#" onclick="app.change_shape();">[Toggle]</a></td>
+		</tr>
+		<tr>
+		  <td>Mode</td>
+		  <td><a href="#" onclick="app.set_mode(0);">[0]</a></td>
+		  <td><a href="#" onclick="app.set_mode(1);">[1]</a></td>
+		  <td><a href="#" onclick="app.set_mode(2);">[2]</a></td>
+		  <td><a href="#" onclick="app.set_mode(3);">[3]</a></td>
+		</tr>
+	      </tbody>
+	    </table>
+	    </td>
+	</tr>
+	<tr>
+	  <td>
+	    <table>
+		<tr>
+		  <td>Keys:</td>
+		</tr>
+		<tr>
+		  <td>Camera Position</td>
+		  <td></td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Camera Rotation</td>
+		  <td>Shift +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Object Position</td>
+		  <td>Ctrl +</td><td>Up</td><td>Down</td><td>Left</td><td>Right</td><td>PgUp</td><td>PgDn</td>
+		</tr>
+		<tr>
+		  <td>Toggle Shape</td><td></td><td>S</td>
+		</tr>
+		<tr>
+		  <td>Change Mode</td><td></td><td>M</td>
+		</tr>
+	    </table>
+	  </td>
+	</tr>
+    </table>
+    <img id="ground" src="../data/check2.png" style="display:none;">
+    <img id="sky" src="../data/envmap_small.jpg" style="display:none;">
+  </body>
+</html>

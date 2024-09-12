@@ -1,0 +1,32 @@
+text {
+  stroke:none;
+  cursor:default;
+  font-size:36px; font-weight:bold; font-family:sans-serif;
+  text-align:center; text-anchor:middle;
+}
+text.dark  { fill:black; }
+text.light { fill:white; }
+rect { stroke:white;stroke-width:1 }
+.outside { fill:black }
+.hint_yes { fill:#c00000 }
+.hint_no { fill:#00c000 }
+.hidden { fill:#0000c0 }
+.open { fill:#ffc040;stroke:black }
+.empty { fill:#c0c0c0;stroke:black }
+.numbox { fill:none;stroke:black }
+#dot { fill:black; stroke: none }
+#star { fill:#c4f969 }
+#status  { font-size:24px; color:red }
+#error.hidden  { display:none }
+#n1 #numbox {  fill:#975738; stroke: #ef8624 }
+#n1 #dot {  fill:#e98927; stroke: none }
+#n2 #numbox {  fill:#977d38; stroke: #ef9f25 }
+#n2 #dot {  fill:#e9a427; stroke: none }
+#n3 #numbox {  fill:#979738; stroke: #eeaf26 }
+#n3 #dot {  fill:#e99027; stroke: none }
+#n4 #numbox {  fill:#709738; stroke: #beee7d }
+#n4 #dot {  fill:#afe271; stroke: none }
+#n5 #numbox {  fill:#579757; stroke: #abef90 }
+#n5 #dot {  fill:#9fe284; stroke: none }
+#n6 #numbox {  fill:#549475; stroke: #9de0b3 }
+#n6 #dot {  fill:#98d8b9; stroke: none }
