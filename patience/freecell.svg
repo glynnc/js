@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="-50 0 2600 1550"
+   externalResourcesRequired="true"
+   id="freecell"
+   version="1.0"
+   onload="startup(evt)" >
+  <script
+     xlink:href="freecell.js"
+     id="script1" />
+  <defs
+     id="defs1">
+     <rect
+         id="marker_rect"
+         x="0.70866394"
+         y="0.70863581"
+         width="201.08269"
+         height="313.5827"
+         rx="8.6760731"
+         ry="8.6760731"
+         style="fill:#0000ff;fill-opacity:0.5;stroke:#000000;stroke-width:3.0;pointer-events:none;"
+         />
+  </defs>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style>
+    .border { fill:#ffffff; stroke:#000000; stroke-width:3; }
+    .label { font-size:45px; font-family:serif; font-weight:bold; text-align:center; text-anchor:middle; cursor:default; }
+    .face { font-size:150px; font-family:serif; text-align:center; text-anchor:middle; cursor:default; }
+    .black { fill: #000000; }
+    .red { fill: #dd0000; }
+    #back_rect { fill:#c0c0ff; stroke:#000000; stroke-width:1; }
+  </style>
+  <g
+     id="board"
+     transform="translate(0,0)">
+     <g
+         id="undo_button"
+         transform="translate(2000,1200)"
+         >
+     <rect
+         id="undo_rect"
+         x="0.70866394"
+         y="0.70863581"
+         width="201.08269"
+         height="113.5827"
+         rx="8.6760731"
+         ry="8.6760731"
+         style="fill:#00ff00;fill-opacity:0.5;fill-rule:evenodd;stroke:#000000;stroke-width:3.0"
+         />
+     <text
+        style="font-size:60px;font-weight:bold;font-family:sans-serif;cursor:default;text-align:center;text-anchor:middle;"
+        x="100"
+        y="80"
+        id="text2232">Undo</text>
+     </g>
+     <g
+         id="new_button"
+         transform="translate(2000,1400)"
+         >
+     <rect
+         id="new_rect"
+         x="0.70866394"
+         y="0.70863581"
+         width="201.08269"
+         height="113.5827"
+         rx="8.6760731"
+         ry="8.6760731"
+         style="fill:#ff0000;fill-opacity:0.5;fill-rule:evenodd;stroke:#000000;stroke-width:3.0"
+         />
+     <text
+        style="font-size:50px;font-weight:bold;font-family:sans-serif;cursor:default;text-align:center;text-anchor:middle;"
+        ><tspan
+          x="100"
+          y="50"
+          >New</tspan><tspan
+          x="100"
+          y="100"
+       >Game</tspan></text>
+     </g>
+  </g>
+  <g
+     id="new_game_box"
+     transform="translate(750,375),scale(2)"
+     style="display:none"
+     >
+  <rect
+     style="fill:#ffffff;stroke:#000000;stroke-width:3.5"
+     width="500"
+     height="220"
+     x="0"
+     y="0"
+     ry="10"
+     />
+  <g
+     id="new_game_yes"
+     transform="translate(140,130)"
+     style="fill: #f0f0f0;cursor:default"
+     >
+    <rect
+       ry="10"
+       y="0"
+       x="0"
+       height="40"
+       width="80"
+       id="rect11436"
+       style="stroke:#000000;stroke-width:3.5" />
+    <text
+       id="text11428"
+       y="30"
+       x="40"
+       style="font-weight:bold;font-size:30px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000"
+       >Yes</text>
+  </g>
+  <g
+     id="new_game_no"
+     transform="translate(280,130)"
+     style="fill: #f0f0f0;cursor:default"
+     >
+    <rect
+       style="stroke:#000000;stroke-width:3.5"
+       id="rect11438"
+       width="80"
+       height="40"
+       x="0"
+       y="0"
+       ry="10" />
+    <text
+       id="text11432"
+       y="30"
+       x="40"
+       style="font-weight:bold;font-size:30px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000"
+       >No</text>
+  </g>
+  <text
+     style="font-weight:bold;font-size:45px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000"
+     x="250"
+     y="80"
+     id="new_game_text"
+     >New Game?</text>
+  </g>
+</svg>

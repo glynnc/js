@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   viewBox="0 0 3300 1100"
+   sodipodi:docname="digital.svg"
+   onload="startup()"
+   inkscape:version="0.91 r13725">
+  <script
+     xlink:href="digital.js"
+     id="digital_script" />
+  <defs
+     id="defs4">
+    <circle
+       cx="0"
+       cy="0"
+       id="ref_dp"
+       r="50"
+       style="fill:#ff0000;stroke:#000000;stroke-width:6"
+       inkscape:label="#circle4231" />
+    <g
+       id="ref_digit_9"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_9_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_9_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_9_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_9_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_9_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_9_5"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_8"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_8_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_8_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_8_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 0,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_8_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4144" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_8_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_8_5"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_8_6"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_7"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_7_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_7_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_7_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+    </g>
+    <g
+       id="ref_digit_6"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_6_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_6_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 0,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_6_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4144" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_6_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_6_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_6_5"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_5"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_5_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_5_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_5_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_5_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_5_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_4"
+       inkscape:label="#g4170">
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_4_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_4_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_4_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_4_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+    </g>
+    <g
+       id="ref_digit_3"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_3_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_3_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_3_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_3_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_3_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_2"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_2_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_2_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 0,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_2_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4144" />
+      <path
+         d="m 50,552.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_2_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4150" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_2_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+    <g
+       id="ref_digit_1"
+       inkscape:label="#g4170">
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_1_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_1_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+    </g>
+    <g
+       id="ref_digit_0"
+       inkscape:label="#g4170">
+      <path
+         d="m 50,102.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_0_0"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4138" />
+      <path
+         d="m 0,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_0_1"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4140" />
+      <path
+         d="m 500,152.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_0_2"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4142" />
+      <path
+         d="m 0,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_0_3"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4144" />
+      <path
+         d="m 500,602.3622 50,-50 50,50 0,350 -50,50 -50,-50 z"
+         id="ref_digit_0_4"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4146" />
+      <path
+         d="m 50,1002.3622 50,-50 400,0 50,50 -50,50 -400,0 z"
+         id="ref_digit_0_5"
+         style="fill:#ff0000;stroke:#000000;stroke-width:6"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         inkscape:label="#path4152" />
+    </g>
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     pagecolor="#ffffff"
+     showgrid="true"
+     units="px"
+     inkscape:bbox-nodes="true"
+     inkscape:current-layer="layer1"
+     inkscape:cx="1456.7538"
+     inkscape:cy="705.18876"
+     inkscape:document-units="px"
+     inkscape:object-nodes="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="false"
+     inkscape:window-height="1129"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1920"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:zoom="0.35">
+    <inkscape:grid
+       id="grid4136"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="display"
+       transform="matrix(1,0,-0.1,1,0,0)"
+       inkscape:label="Layer 1">
+      <g
+         id="digit_3"
+         transform="translate(150,0)"
+         inkscape:label="#g4170">
+        <use
+           id="digit_3_0"
+           xlink:href="#ref_digit_0" />
+        <use
+           id="digit_3_1"
+           xlink:href="#ref_digit_1" />
+        <use
+           id="digit_3_2"
+           xlink:href="#ref_digit_2" />
+        <use
+           id="digit_3_3"
+           xlink:href="#ref_digit_3" />
+        <use
+           id="digit_3_4"
+           xlink:href="#ref_digit_4" />
+        <use
+           id="digit_3_5"
+           xlink:href="#ref_digit_5" />
+        <use
+           id="digit_3_6"
+           xlink:href="#ref_digit_6" />
+        <use
+           id="digit_3_7"
+           xlink:href="#ref_digit_7" />
+        <use
+           id="digit_3_8"
+           xlink:href="#ref_digit_8" />
+        <use
+           id="digit_3_9"
+           xlink:href="#ref_digit_9" />
+      </g>
+      <g
+         id="digit_2"
+         transform="translate(900,0)"
+         inkscape:label="#g4170">
+        <use
+           id="digit_2_0"
+           xlink:href="#ref_digit_0" />
+        <use
+           id="digit_2_1"
+           xlink:href="#ref_digit_1" />
+        <use
+           id="digit_2_2"
+           xlink:href="#ref_digit_2" />
+        <use
+           id="digit_2_3"
+           xlink:href="#ref_digit_3" />
+        <use
+           id="digit_2_4"
+           xlink:href="#ref_digit_4" />
+        <use
+           id="digit_2_5"
+           xlink:href="#ref_digit_5" />
+        <use
+           id="digit_2_6"
+           xlink:href="#ref_digit_6" />
+        <use
+           id="digit_2_7"
+           xlink:href="#ref_digit_7" />
+        <use
+           id="digit_2_8"
+           xlink:href="#ref_digit_8" />
+        <use
+           id="digit_2_9"
+           xlink:href="#ref_digit_9" />
+      </g>
+      <g
+         id="seg_dp"
+         transform="translate(1700,0)"
+         inkscape:label="#g4239">
+        <use
+           id="dp_0"
+           transform="translate(0,350)"
+           xlink:href="#ref_dp" />
+        <use
+           id="dp_1"
+           transform="translate(0,750)"
+           xlink:href="#ref_dp" />
+      </g>
+      <g
+         id="digit_1"
+         transform="translate(1900,0)"
+         inkscape:label="#g4170">
+        <use
+           id="digit_1_0"
+           xlink:href="#ref_digit_0" />
+        <use
+           id="digit_1_1"
+           xlink:href="#ref_digit_1" />
+        <use
+           id="digit_1_2"
+           xlink:href="#ref_digit_2" />
+        <use
+           id="digit_1_3"
+           xlink:href="#ref_digit_3" />
+        <use
+           id="digit_1_4"
+           xlink:href="#ref_digit_4" />
+        <use
+           id="digit_1_5"
+           xlink:href="#ref_digit_5" />
+        <use
+           id="digit_1_6"
+           xlink:href="#ref_digit_6" />
+        <use
+           id="digit_1_7"
+           xlink:href="#ref_digit_7" />
+        <use
+           id="digit_1_8"
+           xlink:href="#ref_digit_8" />
+        <use
+           id="digit_1_9"
+           xlink:href="#ref_digit_9" />
+      </g>
+      <g
+         id="digit_0"
+         transform="translate(2650,0)"
+         inkscape:label="#g4170">
+        <use
+           id="digit_0_0"
+           xlink:href="#ref_digit_0" />
+        <use
+           id="digit_0_1"
+           xlink:href="#ref_digit_1" />
+        <use
+           id="digit_0_2"
+           xlink:href="#ref_digit_2" />
+        <use
+           id="digit_0_3"
+           xlink:href="#ref_digit_3" />
+        <use
+           id="digit_0_4"
+           xlink:href="#ref_digit_4" />
+        <use
+           id="digit_0_5"
+           xlink:href="#ref_digit_5" />
+        <use
+           id="digit_0_6"
+           xlink:href="#ref_digit_6" />
+        <use
+           id="digit_0_7"
+           xlink:href="#ref_digit_7" />
+        <use
+           id="digit_0_8"
+           xlink:href="#ref_digit_8" />
+        <use
+           id="digit_0_9"
+           xlink:href="#ref_digit_9" />
+      </g>
+    </g>
+  </g>
+</svg>

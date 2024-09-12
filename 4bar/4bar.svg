@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 420 600"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   sodipodi:docname="4bar.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   onload="startup(evt)"
+   sodipodi:modified="true">
+  <script
+     xlink:href="../common/pathseg.js"
+     id="script_pathseg" />
+  <script
+     xlink:href="4bar.js"
+     id="script7280" />
+  <defs
+     id="defs4">
+     <path
+        id="marker"
+        d="M -2,0 L 2,0 L 0,5 Z"
+        style="fill:#ffffff;stroke:#000000;stroke-width:0.5;pointer-events:none;" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="172.27083"
+     inkscape:cy="367.93916"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:grid-bbox="false"
+     inkscape:grid-points="true"
+     showgrid="true"
+     inkscape:object-paths="false"
+     inkscape:guide-bbox="false"
+     width="400px"
+     height="600px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="5px"
+       spacingy="5px"
+       color="#0000ff"
+       empcolor="#0000ff"
+       opacity="0.2"
+       empopacity="0.4"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(100,100)"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="bar_DA"
+       transform="translate(0,0)">
+      <rect
+         x="-10"
+         y="-10"
+         width="20"
+         height="120"
+         style="fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+         ry="10"
+         id="rect_DA" />
+      <path
+         id="pivot_D"
+         d="m 5,0 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+    </g>
+    <g
+       id="bar_AB"
+       transform="translate(200,0)">
+      <rect
+         x="-10"
+         y="-10"
+         height="120"
+         width="20"
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.5"
+         ry="10"
+         id="rect_AB" />
+      <path
+         id="pivot_A"
+         d="M 5,0 A 5,5 0 1 1 -5,0 5,5 0 1 1 5,0 Z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="bar_BC"
+       transform="translate(100,0)">
+      <rect
+         ry="10"
+         y="-10"
+         x="-10"
+         height="220"
+         width="20"
+         id="rect_BC"
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.5" />
+      <path
+         id="pivot_B"
+         d="M 5,0 A 5,5 0 1 1 -5,0 5,5 0 1 1 5,0 Z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5"
+         inkscape:connector-curvature="0" />
+      <rect
+         id="anchor"
+         x="-5"
+         y="-5"
+         width="10"
+         height="10"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5"
+         transform="translate(0,489.90)"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="bar_CD"
+       transform="translate(50,244.95)">
+      <rect
+         ry="10"
+         y="-10"
+         x="-10"
+         height="220"
+         width="20"
+         id="rect_CD"
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.5" />
+      <path
+         id="pivot_C"
+         d="m 5,0 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5" />
+    </g>
+    <path
+       id="trace"
+       d="M 0,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;pointer-events:none;" />
+    <g id="markers">
+    </g>
+    <text
+       id="status"
+       y="575"
+       x="0"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+       xml:space="preserve"
+       sodipodi:linespacing="125%">       <tspan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;text-anchor:start;fill:#000000;stroke:none;font-family:Arial"
+   y="575"
+   x="0"
+   id="tspan2228">Ready</tspan>     </text>
+  </g>
+</svg>
